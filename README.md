@@ -1,0 +1,1 @@
+# aws-cert-sol-arch
