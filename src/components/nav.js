@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 function Nav() {
     return (
       <div>
+      <Link to="/">
       <header><h1>AWS Solutions Architect Certification Study Guide</h1></header>
+      </Link>
        <button><Link to="overview-ch1-3">Overview Ch.1-3</Link></button>
        <button><Link to="s3-ch4">S3 Ch.4</Link></button>
        <button><Link to="ec2-ch5">EC2 Ch.5</Link></button>

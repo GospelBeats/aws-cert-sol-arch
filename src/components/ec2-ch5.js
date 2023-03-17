@@ -42,7 +42,7 @@ attach role to ec2 instance after its been created</p>
           <li>attach/detach roles without stopping ec2</li>
         </ul>
         <p><strong>Security Groups</strong> - virtual firewall, block by default
--443,80,22</p>
+-443,80,22,3389</p>
         <p><strong>Bootstrap Scripts (user data)</strong> - script that runs when instance first runs / allows to automate installation of applications</p>
         <ul>
           <li>enter user data during ec2 set up</li>
